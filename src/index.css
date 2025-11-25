@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light Mode (Default) - Lightfield "Linen, Ivory, Coral, Basil" Palette */
+:root {
+  --background: #F3F2E9;
+  --foreground: #1E3D2F;
+  --card: #FFFFFF;
+  --card-foreground: #1E3D2F;
+  --popover: #FFFFFF;
+  --popover-foreground: #1E3D2F;
+  --primary: #1E3D2F;
+  --primary-foreground: #FFFFFF;
+  --secondary: #A3B18A;
+  --secondary-foreground: #1E3D2F;
+  --muted: #EAE8DC;
+  --muted-foreground: #5C6B63;
+  --accent: #FF6B4A;
+  --accent-foreground: #FFFFFF;
+  --destructive: #EF4444;
+  --destructive-foreground: #FFFFFF;
+  --border: #D4D4C8;
+  --input: #EAE8DC;
+  --ring: #FF6B6B;
+  --radius: 1.5rem;
+  --radius-pill: 9999px;
+  --warning: #FDB913;
+  --warning-foreground: #000000;
+}
+
+/* Dark Mode - Vibrant Dark Palette */
+.dark {
+  --background: #0A0A0A;
+  --foreground: #FAFAFA;
+  --card: #171717;
+  --card-foreground: #FAFAFA;
+  --popover: #171717;
+  --popover-foreground: #FAFAFA;
+  --primary: #FF6B6B;
+  --primary-foreground: #FFFFFF;
+  --secondary: #4ECDC4;
+  --secondary-foreground: #FFFFFF;
+  --muted: #262626;
+  --muted-foreground: #A3A3A3;
+  --accent: #FF8243;
+  --accent-foreground: #FFFFFF;
+  --destructive: #EF4444;
+  --destructive-foreground: #FFFFFF;
+  --border: #333333;
+  --input: #333333;
+  --ring: #FF6B6B;
+  --warning: #FDB913;
+  --warning-foreground: #000000;
+}
